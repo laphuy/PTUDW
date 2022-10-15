@@ -3,7 +3,7 @@ const config = require("./app/config")
 
 //start server
 
-const PORT = config.app.PORT
+const PORT = config.app.port
 app.listen(PORT, () => {
     console.log(`Server run port ${PORT}.`)
 });
